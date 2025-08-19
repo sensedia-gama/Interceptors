@@ -20,5 +20,5 @@ O nosso repositório possui a seguinte estrutura:
 
 ## Contribua conosco!
 Você tem um interceptor que gostaria de compartilhar com o time Sensedia e com os nossos clientes incríveis? Fique fique à vontade. Você pode criar banches a partir da master e adicionar ou modificar interceptors.
-[NESTA](https://drive.google.com/open?id=16PXwPo7B5FQ1cUdR5bLFTwBAVNzORpGM)  apresentação ensinamos como fazer para contribuir. 
+[NESTA](https://drive.google.com/open?id=16PXwPo7B5FQ1cUdR5bLFTwBAVNzORpGM)  apresentação ensinamos como fazer para contribuir.
 
