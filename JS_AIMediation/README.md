@@ -100,7 +100,6 @@ sequenceDiagram
     participant Interceptor4 as AI Message Formatter
     participant Backend as AI Model Backend 
     participant Interceptor5 as AI Response Extractor
-
     %% Request flow
     rect rgba(200,230,255,0.25)
     note over Client,Backend: 🔵 Request Flow
@@ -108,14 +107,14 @@ sequenceDiagram
     Interceptor1 ->> Interceptor2: Set AI Prompt
     Interceptor2 ->> Interceptor3: Enrich Prompt with Request Body
     Interceptor3 ->> Interceptor4: Format AI Message
-    Interceptor4 ->> Backend: Send Request
+    Interceptor4 ->> Backend: Send Request    
     end
-
     %% Response flow
     rect rgba(255,200,180,0.25)
     note over Interceptor5,Client: 🟠 Response Flow
     Backend -->> Interceptor5: AI Response
     Interceptor5 ->> Client: Extract AI Response
+    end
 ```
 
 This flow ensures that each interceptor works in harmony, processing the data step-by-step to integrate seamlessly with the AI model API.
